@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agacOdev", "agacOdev\agacOdev.csproj", "{03E09F98-6CEE-41A0-8192-903B1A7DE68E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03E09F98-6CEE-41A0-8192-903B1A7DE68E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E09F98-6CEE-41A0-8192-903B1A7DE68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E09F98-6CEE-41A0-8192-903B1A7DE68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E09F98-6CEE-41A0-8192-903B1A7DE68E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19FEFFC3-8956-4507-95E5-213EF7D9C82E}
+	EndGlobalSection
+EndGlobal
