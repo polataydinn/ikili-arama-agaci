@@ -96,13 +96,13 @@ namespace agacOdev
             while (after != null)
             {
                 before = after;
-                if (deger < after.veri) //Is new node in left tree? 
+                if (deger < after.veri)
                     after = after.solDugum;
-                else if (deger > after.veri) //Is new node in right tree?
+                else if (deger > after.veri) 
                     after = after.sagDugum;
                 else
                 {
-                    //Exist same value
+                    
                     return false;
                 }
             }
@@ -110,7 +110,7 @@ namespace agacOdev
             Dugum newNode = new Dugum();
             newNode.veri = deger;
 
-            if (this.Root == null)//Tree ise empty
+            if (this.Root == null)
                 this.Root = newNode;
             else
             {
@@ -136,19 +136,19 @@ namespace agacOdev
             else if (anahtar > dugum.veri)
                 dugum.sagDugum = sil(dugum.sagDugum, anahtar);
 
-            // if value is same as parent's value, then this is the node to be deleted  
+           
             else
             {
-                // node with only one child or no child  
+                 
                 if (dugum.solDugum == null)
                     return dugum.sagDugum;
                 else if (dugum.sagDugum == null)
                     return dugum.solDugum;
 
-                // node with two children: Get the inorder successor (smallest in the right subtree)  
+               
                 dugum.veri = enDusukDeger(dugum.sagDugum);
 
-                // Delete the inorder successor  
+                
                 dugum.sagDugum = sil(dugum.sagDugum, dugum.veri);
             }
 
